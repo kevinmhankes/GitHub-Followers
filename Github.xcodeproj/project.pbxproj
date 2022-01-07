@@ -17,6 +17,7 @@
 		F211901A2783F042001F9D78 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21190192783F042001F9D78 /* FavoritesListVC.swift */; };
 		F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C72787AC99003EFAC8 /* GHButton.swift */; };
 		F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C92787B24F003EFAC8 /* GHTextField.swift */; };
+		F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F21190192783F042001F9D78 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		F250C9C72787AC99003EFAC8 /* GHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHButton.swift; sourceTree = "<group>"; };
 		F250C9C92787B24F003EFAC8 /* GHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTextField.swift; sourceTree = "<group>"; };
+		F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		F21190002783E0A4001F9D78 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */,
 				F250C9C92787B24F003EFAC8 /* GHTextField.swift */,
 				F21190012783E0A4001F9D78 /* AppDelegate.swift */,
 				F21190032783E0A4001F9D78 /* SceneDelegate.swift */,
@@ -156,6 +159,7 @@
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
+				F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */,
 				F21190042783E0A4001F9D78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
