@@ -18,6 +18,10 @@
 		F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C72787AC99003EFAC8 /* GHButton.swift */; };
 		F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C92787B24F003EFAC8 /* GHTextField.swift */; };
 		F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */; };
+		F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */; };
+		F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */; };
+		F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */; };
+		F2BAFB42278B939F007AC508 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		F250C9C72787AC99003EFAC8 /* GHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHButton.swift; sourceTree = "<group>"; };
 		F250C9C92787B24F003EFAC8 /* GHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTextField.swift; sourceTree = "<group>"; };
 		F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTitleLabel.swift; sourceTree = "<group>"; };
+		F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHBodyLabel.swift; sourceTree = "<group>"; };
+		F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +80,16 @@
 				F21190032783E0A4001F9D78 /* SceneDelegate.swift */,
 				F250C9C72787AC99003EFAC8 /* GHButton.swift */,
 				F21190172783F018001F9D78 /* SearchVC.swift */,
+				F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */,
+				F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */,
 				F21190192783F042001F9D78 /* FavoritesListVC.swift */,
 				F21190052783E0A4001F9D78 /* ViewController.swift */,
 				F21190072783E0A4001F9D78 /* Main.storyboard */,
 				F211900A2783E0A4001F9D78 /* Assets.xcassets */,
 				F211900C2783E0A4001F9D78 /* LaunchScreen.storyboard */,
 				F211900F2783E0A4001F9D78 /* Info.plist */,
+				F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */,
+				F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */,
 			);
 			path = Github;
 			sourceTree = "<group>";
@@ -153,14 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */,
 				F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */,
+				F2BAFB42278B939F007AC508 /* UIViewController+Ext.swift in Sources */,
 				F211901A2783F042001F9D78 /* FavoritesListVC.swift in Sources */,
 				F21190062783E0A4001F9D78 /* ViewController.swift in Sources */,
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
+				F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */,
 				F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */,
 				F21190042783E0A4001F9D78 /* SceneDelegate.swift in Sources */,
+				F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
