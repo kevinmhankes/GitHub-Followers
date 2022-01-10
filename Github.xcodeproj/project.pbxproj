@@ -16,6 +16,7 @@
 		F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C72787AC99003EFAC8 /* GHButton.swift */; };
 		F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C92787B24F003EFAC8 /* GHTextField.swift */; };
 		F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */; };
+		F29F03E1278CDADD00400614 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E0278CDADD00400614 /* ErrorMessage.swift */; };
 		F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */; };
 		F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */; };
 		F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */; };
@@ -37,6 +38,7 @@
 		F250C9C72787AC99003EFAC8 /* GHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHButton.swift; sourceTree = "<group>"; };
 		F250C9C92787B24F003EFAC8 /* GHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTextField.swift; sourceTree = "<group>"; };
 		F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		F29F03E0278CDADD00400614 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTitleLabel.swift; sourceTree = "<group>"; };
 		F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHBodyLabel.swift; sourceTree = "<group>"; };
 		F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		F21190002783E0A4001F9D78 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				F29F03DF278CDACD00400614 /* Utilities */,
 				F2BAFB4C278BBCB8007AC508 /* Managers */,
 				F2BAFB47278BB547007AC508 /* Model */,
 				F2BAFB46278BAAEF007AC508 /* Support */,
@@ -85,6 +88,14 @@
 				F211900F2783E0A4001F9D78 /* Info.plist */,
 			);
 			path = Github;
+			sourceTree = "<group>";
+		};
+		F29F03DF278CDACD00400614 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F29F03E0278CDADD00400614 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		F2BAFB43278BA03C007AC508 /* Screens */ = {
@@ -222,6 +233,7 @@
 				F211901A2783F042001F9D78 /* FavoritesListVC.swift in Sources */,
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
+				F29F03E1278CDADD00400614 /* ErrorMessage.swift in Sources */,
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
 				F2BAFB49278BB559007AC508 /* Follower.swift in Sources */,
 				F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */,
