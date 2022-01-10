@@ -17,6 +17,8 @@
 		F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C92787B24F003EFAC8 /* GHTextField.swift */; };
 		F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */; };
 		F29F03E1278CDADD00400614 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E0278CDADD00400614 /* ErrorMessage.swift */; };
+		F29F03E4278CDFE100400614 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E3278CDFE100400614 /* FollowerCell.swift */; };
+		F29F03E6278CE05C00400614 /* GHAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E5278CE05C00400614 /* GHAvatarImageView.swift */; };
 		F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */; };
 		F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */; };
 		F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */; };
@@ -39,6 +41,8 @@
 		F250C9C92787B24F003EFAC8 /* GHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTextField.swift; sourceTree = "<group>"; };
 		F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		F29F03E0278CDADD00400614 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		F29F03E3278CDFE100400614 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		F29F03E5278CE05C00400614 /* GHAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHAvatarImageView.swift; sourceTree = "<group>"; };
 		F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTitleLabel.swift; sourceTree = "<group>"; };
 		F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHBodyLabel.swift; sourceTree = "<group>"; };
 		F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
@@ -98,6 +102,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		F29F03E2278CDFBA00400614 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F29F03E3278CDFE100400614 /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		F2BAFB43278BA03C007AC508 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,11 +123,13 @@
 		F2BAFB44278BA06B007AC508 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				F29F03E2278CDFBA00400614 /* Cells */,
 				F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */,
 				F250C9C92787B24F003EFAC8 /* GHTextField.swift */,
 				F250C9C72787AC99003EFAC8 /* GHButton.swift */,
 				F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */,
 				F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */,
+				F29F03E5278CE05C00400614 /* GHAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -233,11 +247,13 @@
 				F211901A2783F042001F9D78 /* FavoritesListVC.swift in Sources */,
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
+				F29F03E4278CDFE100400614 /* FollowerCell.swift in Sources */,
 				F29F03E1278CDADD00400614 /* ErrorMessage.swift in Sources */,
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
 				F2BAFB49278BB559007AC508 /* Follower.swift in Sources */,
 				F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */,
 				F2BAFB4E278BBCC7007AC508 /* NetworkManager.swift in Sources */,
+				F29F03E6278CE05C00400614 /* GHAvatarImageView.swift in Sources */,
 				F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */,
 				F21190042783E0A4001F9D78 /* SceneDelegate.swift in Sources */,
 				F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */,
