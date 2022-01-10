@@ -20,6 +20,9 @@
 		F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */; };
 		F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */; };
 		F2BAFB42278B939F007AC508 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */; };
+		F2BAFB49278BB559007AC508 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB48278BB559007AC508 /* Follower.swift */; };
+		F2BAFB4B278BB63F007AC508 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB4A278BB63F007AC508 /* User.swift */; };
+		F2BAFB4E278BBCC7007AC508 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHBodyLabel.swift; sourceTree = "<group>"; };
 		F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		F2BAFB48278BB559007AC508 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		F2BAFB4A278BB63F007AC508 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,8 @@
 		F21190002783E0A4001F9D78 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				F2BAFB4C278BBCB8007AC508 /* Managers */,
+				F2BAFB47278BB547007AC508 /* Model */,
 				F2BAFB46278BAAEF007AC508 /* Support */,
 				F2BAFB45278BAAB1007AC508 /* Extensions */,
 				F2BAFB44278BA06B007AC508 /* Custom Views */,
@@ -118,6 +126,23 @@
 				F21190012783E0A4001F9D78 /* AppDelegate.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		F2BAFB47278BB547007AC508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAFB48278BB559007AC508 /* Follower.swift */,
+				F2BAFB4A278BB63F007AC508 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2BAFB4C278BBCB8007AC508 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BAFB4B278BB63F007AC508 /* User.swift in Sources */,
 				F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */,
 				F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */,
 				F2BAFB42278B939F007AC508 /* UIViewController+Ext.swift in Sources */,
@@ -197,7 +223,9 @@
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
+				F2BAFB49278BB559007AC508 /* Follower.swift in Sources */,
 				F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */,
+				F2BAFB4E278BBCC7007AC508 /* NetworkManager.swift in Sources */,
 				F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */,
 				F21190042783E0A4001F9D78 /* SceneDelegate.swift in Sources */,
 				F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */,
