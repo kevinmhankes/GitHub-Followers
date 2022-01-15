@@ -16,6 +16,9 @@
 		F21FD182278E656300FA89DC /* GHEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FD181278E656300FA89DC /* GHEmptyStateView.swift */; };
 		F21FD18427937AAA00FA89DC /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FD18327937AAA00FA89DC /* UserInfoVC.swift */; };
 		F21FD186279381E800FA89DC /* GHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FD185279381E800FA89DC /* GHError.swift */; };
+		F21FD1882793839D00FA89DC /* GHUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FD1872793839D00FA89DC /* GHUserInfoHeaderVC.swift */; };
+		F21FD18A2793840500FA89DC /* GHSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FD1892793840500FA89DC /* GHSecondaryTitleLabel.swift */; };
+		F21FD18C27938A0B00FA89DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FD18B27938A0B00FA89DC /* Constants.swift */; };
 		F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C72787AC99003EFAC8 /* GHButton.swift */; };
 		F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C92787B24F003EFAC8 /* GHTextField.swift */; };
 		F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */; };
@@ -43,6 +46,9 @@
 		F21FD181278E656300FA89DC /* GHEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHEmptyStateView.swift; sourceTree = "<group>"; };
 		F21FD18327937AAA00FA89DC /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		F21FD185279381E800FA89DC /* GHError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHError.swift; sourceTree = "<group>"; };
+		F21FD1872793839D00FA89DC /* GHUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		F21FD1892793840500FA89DC /* GHSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		F21FD18B27938A0B00FA89DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F250C9C72787AC99003EFAC8 /* GHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHButton.swift; sourceTree = "<group>"; };
 		F250C9C92787B24F003EFAC8 /* GHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTextField.swift; sourceTree = "<group>"; };
 		F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
@@ -136,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */,
+				F21FD1872793839D00FA89DC /* GHUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -145,6 +152,7 @@
 			children = (
 				F2BAFB3B278B8B78007AC508 /* GHTitleLabel.swift */,
 				F2BAFB3D278B8CB9007AC508 /* GHBodyLabel.swift */,
+				F21FD1892793840500FA89DC /* GHSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 			children = (
 				F29F03E7278D0D8300400614 /* UIHelper.swift */,
 				F21FD185279381E800FA89DC /* GHError.swift */,
+				F21FD18B27938A0B00FA89DC /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -297,10 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21FD1882793839D00FA89DC /* GHUserInfoHeaderVC.swift in Sources */,
 				F2BAFB4B278BB63F007AC508 /* User.swift in Sources */,
 				F21FD186279381E800FA89DC /* GHError.swift in Sources */,
+				F21FD18A2793840500FA89DC /* GHSecondaryTitleLabel.swift in Sources */,
 				F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */,
 				F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */,
+				F21FD18C27938A0B00FA89DC /* Constants.swift in Sources */,
 				F2BAFB42278B939F007AC508 /* UIViewController+Ext.swift in Sources */,
 				F211901A2783F042001F9D78 /* FavoritesListVC.swift in Sources */,
 				F29F03E8278D0D8300400614 /* UIHelper.swift in Sources */,
