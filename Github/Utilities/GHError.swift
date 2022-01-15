@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GHError.swift
 //  Github
 //
-//  Created by Kevin Hankes on 1/10/22.
+//  Created by Kevin Hankes on 1/15/22.
 //
 
 import Foundation
