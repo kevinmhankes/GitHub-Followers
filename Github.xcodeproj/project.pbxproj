@@ -34,6 +34,8 @@
 		F2BAFB4E278BBCC7007AC508 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */; };
 		F2D0A0BC279A17C8002BE30C /* GHItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0BB279A17C8002BE30C /* GHItemInfoView.swift */; };
 		F2D0A0BE279A1B75002BE30C /* GHItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0BD279A1B75002BE30C /* GHItemInfoVC.swift */; };
+		F2D0A0C0279A1E95002BE30C /* GHRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0BF279A1E95002BE30C /* GHRepoItemVC.swift */; };
+		F2D0A0C2279A2054002BE30C /* GHFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F2D0A0BB279A17C8002BE30C /* GHItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHItemInfoView.swift; sourceTree = "<group>"; };
 		F2D0A0BD279A1B75002BE30C /* GHItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHItemInfoVC.swift; sourceTree = "<group>"; };
+		F2D0A0BF279A1E95002BE30C /* GHRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHRepoItemVC.swift; sourceTree = "<group>"; };
+		F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowerItemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,9 +150,12 @@
 		F21FD17F278E64B700FA89DC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2D0A0BD279A1B75002BE30C /* GHItemInfoVC.swift */,
+				F2D0A0BF279A1E95002BE30C /* GHRepoItemVC.swift */,
+				F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */,
+				F2D0A0C3279A2088002BE30C /* ItemInfoVCs */,
 				F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */,
 				F21FD1872793839D00FA89DC /* GHUserInfoHeaderVC.swift */,
-				F2D0A0BD279A1B75002BE30C /* GHItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -242,6 +249,13 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		F2D0A0C3279A2088002BE30C /* ItemInfoVCs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ItemInfoVCs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -322,7 +336,9 @@
 				F21FD18C27938A0B00FA89DC /* Constants.swift in Sources */,
 				F2BAFB42278B939F007AC508 /* UIViewController+Ext.swift in Sources */,
 				F211901A2783F042001F9D78 /* FavoritesListVC.swift in Sources */,
+				F2D0A0C0279A1E95002BE30C /* GHRepoItemVC.swift in Sources */,
 				F29F03E8278D0D8300400614 /* UIHelper.swift in Sources */,
+				F2D0A0C2279A2054002BE30C /* GHFollowerItemVC.swift in Sources */,
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
 				F2D0A0BC279A17C8002BE30C /* GHItemInfoView.swift in Sources */,
