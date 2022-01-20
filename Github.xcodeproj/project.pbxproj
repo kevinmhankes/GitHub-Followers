@@ -32,6 +32,7 @@
 		F2BAFB49278BB559007AC508 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB48278BB559007AC508 /* Follower.swift */; };
 		F2BAFB4B278BB63F007AC508 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB4A278BB63F007AC508 /* User.swift */; };
 		F2BAFB4E278BBCC7007AC508 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */; };
+		F2D0A0BC279A17C8002BE30C /* GHItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0BB279A17C8002BE30C /* GHItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		F2BAFB48278BB559007AC508 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		F2BAFB4A278BB63F007AC508 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F2D0A0BB279A17C8002BE30C /* GHItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F21FD181278E656300FA89DC /* GHEmptyStateView.swift */,
+				F2D0A0BB279A17C8002BE30C /* GHItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				F29F03E8278D0D8300400614 /* UIHelper.swift in Sources */,
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
+				F2D0A0BC279A17C8002BE30C /* GHItemInfoView.swift in Sources */,
 				F29F03E4278CDFE100400614 /* FollowerCell.swift in Sources */,
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
 				F2BAFB49278BB559007AC508 /* Follower.swift in Sources */,
