@@ -36,6 +36,8 @@
 		F2D0A0BE279A1B75002BE30C /* GHItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0BD279A1B75002BE30C /* GHItemInfoVC.swift */; };
 		F2D0A0C0279A1E95002BE30C /* GHRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0BF279A1E95002BE30C /* GHRepoItemVC.swift */; };
 		F2D0A0C2279A2054002BE30C /* GHFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */; };
+		F2D0A0C5279A235A002BE30C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C4279A235A002BE30C /* Date+Ext.swift */; };
+		F2D0A0C7279A2382002BE30C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C6279A2382002BE30C /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		F2D0A0BD279A1B75002BE30C /* GHItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHItemInfoVC.swift; sourceTree = "<group>"; };
 		F2D0A0BF279A1E95002BE30C /* GHRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHRepoItemVC.swift; sourceTree = "<group>"; };
 		F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowerItemVC.swift; sourceTree = "<group>"; };
+		F2D0A0C4279A235A002BE30C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		F2D0A0C6279A2382002BE30C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */,
+				F2D0A0C4279A235A002BE30C /* Date+Ext.swift */,
+				F2D0A0C6279A2382002BE30C /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				F21FD1882793839D00FA89DC /* GHUserInfoHeaderVC.swift in Sources */,
 				F2BAFB4B278BB63F007AC508 /* User.swift in Sources */,
 				F21FD186279381E800FA89DC /* GHError.swift in Sources */,
+				F2D0A0C7279A2382002BE30C /* String+Ext.swift in Sources */,
 				F21FD18A2793840500FA89DC /* GHSecondaryTitleLabel.swift in Sources */,
 				F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */,
 				F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */,
@@ -345,6 +352,7 @@
 				F29F03E4278CDFE100400614 /* FollowerCell.swift in Sources */,
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
 				F2BAFB49278BB559007AC508 /* Follower.swift in Sources */,
+				F2D0A0C5279A235A002BE30C /* Date+Ext.swift in Sources */,
 				F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */,
 				F2BAFB4E278BBCC7007AC508 /* NetworkManager.swift in Sources */,
 				F29F03E6278CE05C00400614 /* GHAvatarImageView.swift in Sources */,
