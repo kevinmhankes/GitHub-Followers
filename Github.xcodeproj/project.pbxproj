@@ -38,6 +38,7 @@
 		F2D0A0C2279A2054002BE30C /* GHFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */; };
 		F2D0A0C5279A235A002BE30C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C4279A235A002BE30C /* Date+Ext.swift */; };
 		F2D0A0C7279A2382002BE30C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C6279A2382002BE30C /* String+Ext.swift */; };
+		F2D0A0C9279DDD5B002BE30C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C8279DDD5B002BE30C /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowerItemVC.swift; sourceTree = "<group>"; };
 		F2D0A0C4279A235A002BE30C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		F2D0A0C6279A2382002BE30C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		F2D0A0C8279DDD5B002BE30C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				F2BAFB4D278BBCC7007AC508 /* NetworkManager.swift */,
+				F2D0A0C8279DDD5B002BE30C /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				F21190182783F018001F9D78 /* SearchVC.swift in Sources */,
 				F2BAFB49278BB559007AC508 /* Follower.swift in Sources */,
 				F2D0A0C5279A235A002BE30C /* Date+Ext.swift in Sources */,
+				F2D0A0C9279DDD5B002BE30C /* PersistenceManager.swift in Sources */,
 				F2BAFB40278B8D6F007AC508 /* AlertVC.swift in Sources */,
 				F2BAFB4E278BBCC7007AC508 /* NetworkManager.swift in Sources */,
 				F29F03E6278CE05C00400614 /* GHAvatarImageView.swift in Sources */,
