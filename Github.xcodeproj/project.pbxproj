@@ -39,6 +39,7 @@
 		F2D0A0C5279A235A002BE30C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C4279A235A002BE30C /* Date+Ext.swift */; };
 		F2D0A0C7279A2382002BE30C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C6279A2382002BE30C /* String+Ext.swift */; };
 		F2D0A0C9279DDD5B002BE30C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C8279DDD5B002BE30C /* PersistenceManager.swift */; };
+		F2D0A0CB279DEA6D002BE30C /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0CA279DEA6D002BE30C /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		F2D0A0C4279A235A002BE30C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		F2D0A0C6279A2382002BE30C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		F2D0A0C8279DDD5B002BE30C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		F2D0A0CA279DEA6D002BE30C /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				F29F03E3278CDFE100400614 /* FollowerCell.swift */,
+				F2D0A0CA279DEA6D002BE30C /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				F2D0A0C0279A1E95002BE30C /* GHRepoItemVC.swift in Sources */,
 				F29F03E8278D0D8300400614 /* UIHelper.swift in Sources */,
 				F2D0A0C2279A2054002BE30C /* GHFollowerItemVC.swift in Sources */,
+				F2D0A0CB279DEA6D002BE30C /* FavoriteCell.swift in Sources */,
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
 				F2D0A0BC279A17C8002BE30C /* GHItemInfoView.swift in Sources */,
