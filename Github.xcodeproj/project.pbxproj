@@ -22,6 +22,7 @@
 		F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C72787AC99003EFAC8 /* GHButton.swift */; };
 		F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9C92787B24F003EFAC8 /* GHTextField.swift */; };
 		F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */; };
+		F28777F7279F6BED00A2DDB8 /* GHDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28777F6279F6BED00A2DDB8 /* GHDataLoadingVC.swift */; };
 		F29F03E4278CDFE100400614 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E3278CDFE100400614 /* FollowerCell.swift */; };
 		F29F03E6278CE05C00400614 /* GHAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E5278CE05C00400614 /* GHAvatarImageView.swift */; };
 		F29F03E8278D0D8300400614 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E7278D0D8300400614 /* UIHelper.swift */; };
@@ -37,7 +38,6 @@
 		F2D0A0C0279A1E95002BE30C /* GHRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0BF279A1E95002BE30C /* GHRepoItemVC.swift */; };
 		F2D0A0C2279A2054002BE30C /* GHFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */; };
 		F2D0A0C5279A235A002BE30C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C4279A235A002BE30C /* Date+Ext.swift */; };
-		F2D0A0C7279A2382002BE30C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C6279A2382002BE30C /* String+Ext.swift */; };
 		F2D0A0C9279DDD5B002BE30C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0C8279DDD5B002BE30C /* PersistenceManager.swift */; };
 		F2D0A0CB279DEA6D002BE30C /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0CA279DEA6D002BE30C /* FavoriteCell.swift */; };
 		F2D0A0CE279F6034002BE30C /* GHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0A0CD279F6034002BE30C /* GHTabBarController.swift */; };
@@ -62,6 +62,7 @@
 		F250C9C72787AC99003EFAC8 /* GHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHButton.swift; sourceTree = "<group>"; };
 		F250C9C92787B24F003EFAC8 /* GHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTextField.swift; sourceTree = "<group>"; };
 		F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		F28777F6279F6BED00A2DDB8 /* GHDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHDataLoadingVC.swift; sourceTree = "<group>"; };
 		F29F03E3278CDFE100400614 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		F29F03E5278CE05C00400614 /* GHAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHAvatarImageView.swift; sourceTree = "<group>"; };
 		F29F03E7278D0D8300400614 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
@@ -77,7 +78,6 @@
 		F2D0A0BF279A1E95002BE30C /* GHRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHRepoItemVC.swift; sourceTree = "<group>"; };
 		F2D0A0C1279A2054002BE30C /* GHFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowerItemVC.swift; sourceTree = "<group>"; };
 		F2D0A0C4279A235A002BE30C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		F2D0A0C6279A2382002BE30C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		F2D0A0C8279DDD5B002BE30C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		F2D0A0CA279DEA6D002BE30C /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		F2D0A0CD279F6034002BE30C /* GHTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTabBarController.swift; sourceTree = "<group>"; };
@@ -166,6 +166,7 @@
 				F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */,
 				F21FD1872793839D00FA89DC /* GHUserInfoHeaderVC.swift */,
 				F2D0A0C3279A2088002BE30C /* ItemInfoVCs */,
+				F28777F6279F6BED00A2DDB8 /* GHDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -230,7 +231,6 @@
 			children = (
 				F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */,
 				F2D0A0C4279A235A002BE30C /* Date+Ext.swift */,
-				F2D0A0C6279A2382002BE30C /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -355,7 +355,6 @@
 				F21FD1882793839D00FA89DC /* GHUserInfoHeaderVC.swift in Sources */,
 				F2BAFB4B278BB63F007AC508 /* User.swift in Sources */,
 				F21FD186279381E800FA89DC /* GHError.swift in Sources */,
-				F2D0A0C7279A2382002BE30C /* String+Ext.swift in Sources */,
 				F21FD18A2793840500FA89DC /* GHSecondaryTitleLabel.swift in Sources */,
 				F2BAFB3C278B8B78007AC508 /* GHTitleLabel.swift in Sources */,
 				F250C9C82787AC99003EFAC8 /* GHButton.swift in Sources */,
@@ -368,6 +367,7 @@
 				F2D0A0C2279A2054002BE30C /* GHFollowerItemVC.swift in Sources */,
 				F2D0A0CB279DEA6D002BE30C /* FavoriteCell.swift in Sources */,
 				F250C9CA2787B24F003EFAC8 /* GHTextField.swift in Sources */,
+				F28777F7279F6BED00A2DDB8 /* GHDataLoadingVC.swift in Sources */,
 				F21190022783E0A4001F9D78 /* AppDelegate.swift in Sources */,
 				F2D0A0BC279A17C8002BE30C /* GHItemInfoView.swift in Sources */,
 				F2D0A0CE279F6034002BE30C /* GHTabBarController.swift in Sources */,

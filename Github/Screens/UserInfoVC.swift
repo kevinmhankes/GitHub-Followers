@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserInfoVC: UIViewController {
+class UserInfoVC: GHDataLoadingVC {
     
     let headerView = UIView()
     let itemViewOne = UIView()
@@ -57,7 +57,7 @@ class UserInfoVC: UIViewController {
         self.add(childVC: followerItemVC, to: self.itemViewTwo)
         self.add(childVC: GHUserInfoHeaderVC(user: user), to: self.headerView)
         
-        self.dateLabel.text = "User since \(user.createdAt.convertToDisplayFormat())"
+        self.dateLabel.text = "User since \(user.createdAt.convertToMonthYearFormat())"
     }
     
     func layoutUI() {
