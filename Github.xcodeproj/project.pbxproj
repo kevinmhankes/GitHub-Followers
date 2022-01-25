@@ -167,9 +167,9 @@
 		F21FD17F278E64B700FA89DC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2D0A0C3279A2088002BE30C /* ItemInfoVCs */,
 				F2BAFB3F278B8D6F007AC508 /* AlertVC.swift */,
 				F21FD1872793839D00FA89DC /* GHUserInfoHeaderVC.swift */,
-				F2D0A0C3279A2088002BE30C /* ItemInfoVCs */,
 				F28777F6279F6BED00A2DDB8 /* GHDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
