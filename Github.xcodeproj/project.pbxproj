@@ -24,6 +24,7 @@
 		F250C9CC2787BB81003EFAC8 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */; };
 		F28777F7279F6BED00A2DDB8 /* GHDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28777F6279F6BED00A2DDB8 /* GHDataLoadingVC.swift */; };
 		F28777F9279F789D00A2DDB8 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28777F8279F789D00A2DDB8 /* UIView+Ext.swift */; };
+		F28B277127A09CC0004142A7 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28B277027A09CC0004142A7 /* UITableView+Ext.swift */; };
 		F29F03E4278CDFE100400614 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E3278CDFE100400614 /* FollowerCell.swift */; };
 		F29F03E6278CE05C00400614 /* GHAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E5278CE05C00400614 /* GHAvatarImageView.swift */; };
 		F29F03E8278D0D8300400614 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F03E7278D0D8300400614 /* UIHelper.swift */; };
@@ -65,6 +66,7 @@
 		F250C9CB2787BB81003EFAC8 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		F28777F6279F6BED00A2DDB8 /* GHDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHDataLoadingVC.swift; sourceTree = "<group>"; };
 		F28777F8279F789D00A2DDB8 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		F28B277027A09CC0004142A7 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 		F29F03E3278CDFE100400614 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		F29F03E5278CE05C00400614 /* GHAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHAvatarImageView.swift; sourceTree = "<group>"; };
 		F29F03E7278D0D8300400614 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				F2BAFB41278B939F007AC508 /* UIViewController+Ext.swift */,
 				F2D0A0C4279A235A002BE30C /* Date+Ext.swift */,
 				F28777F8279F789D00A2DDB8 /* UIView+Ext.swift */,
+				F28B277027A09CC0004142A7 /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				F21190042783E0A4001F9D78 /* SceneDelegate.swift in Sources */,
 				F2D0A0D0279F65C0002BE30C /* GHAlertContainerView.swift in Sources */,
 				F21FD182278E656300FA89DC /* GHEmptyStateView.swift in Sources */,
+				F28B277127A09CC0004142A7 /* UITableView+Ext.swift in Sources */,
 				F2BAFB3E278B8CB9007AC508 /* GHBodyLabel.swift in Sources */,
 				F21FD18427937AAA00FA89DC /* UserInfoVC.swift in Sources */,
 			);
