@@ -11,7 +11,7 @@ class FavoritesListVC: GHDataLoadingVC {
     
     let tableView = UITableView()
     var favorites: [Follower] = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -50,7 +50,9 @@ class FavoritesListVC: GHDataLoadingVC {
                 self.updateUI(with: favorites)
                 
             case .failure(let error):
-                self.presentGHAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+                DispatchQueue.main.async {
+                    self.presentGHAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+                }
             }
         }
     }
@@ -100,7 +102,9 @@ extension FavoritesListVC: UITableViewDataSource, UITableViewDelegate {
                 return
             }
             
-            self.presentGHAlertOnMainThread(title: "Unable to remove", message: error.rawValue, buttonTitle: "Ok")
+            DispatchQueue.main.async {
+                self.presentGHAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+            }
         }
     }
     

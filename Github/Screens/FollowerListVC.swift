@@ -75,20 +75,22 @@ class FollowerListVC: GHDataLoadingVC {
         showLoadingView()
         isLoadingMoreFollowers = true
         
-        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
-            guard let self = self else { return }
-            self.dismissLoadingView()
-            
-            switch result {
+        Task {
+            do {
+                let followers = try await NetworkManager.shared.getFollowers(for: username, page: page)
+                updateUI(with: followers)
+                dismissLoadingView()
+                isLoadingMoreFollowers = false
+            } catch {
+                if let ghError = error as? GHError {
+                    presentGHAlert(title: "Bad Stuff Happened", message: ghError.rawValue, buttonTitle: "Ok")
+                } else {
+                    presentDefaultError()
+                }
                 
-            case .success(let followers):
-                self.updateUI(with: followers)
-                
-            case .failure(let error):
-                self.presentGHAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
+                isLoadingMoreFollowers = false
+                dismissLoadingView()
             }
-            
-            self.isLoadingMoreFollowers = false
         }
     }
     
@@ -123,16 +125,19 @@ class FollowerListVC: GHDataLoadingVC {
     @objc func addButtonTapped() {
         showLoadingView()
         
-        NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
-            guard let self = self else { return }
-            self.dismissLoadingView()
-            
-            switch result {
-            case .success(let user):
-                self.addUserToFavorites(user: user)
+        Task {
+            do {
+                let user = try await NetworkManager.shared.getUserInfo(for: username)
+                addUserToFavorites(user: user)
+                dismissLoadingView()
+            } catch {
+                if let ghError = error as? GHError {
+                    presentGHAlert(title: "Something went wrong", message: ghError.rawValue, buttonTitle: "Ok")
+                } else {
+                    presentDefaultError()
+                }
                 
-            case .failure(let error):
-                self.presentGHAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+                dismissLoadingView()
             }
         }
     }
@@ -143,11 +148,15 @@ class FollowerListVC: GHDataLoadingVC {
         PersistenceManager.updateWith(favorite: favorite, actionType: .add) { [weak self] error in
             guard let self = self else { return }
             guard let error = error else {
-                self.presentGHAlertOnMainThread(title: "Success", message: "You have successfully favorited this user! 🎉", buttonTitle: "Hooray!")
+                DispatchQueue.main.async {
+                    self.presentGHAlert(title: "Success", message: "You have successfully favorited this user! 🎉", buttonTitle: "Hooray!")
+                }
                 return
             }
             
-            self.presentGHAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+            DispatchQueue.main.async {
+                self.presentGHAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+            }
         }
     }
 }
